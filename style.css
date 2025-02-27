@@ -7,6 +7,7 @@
 body {
   background-color: #1f438c;
 }
+
 #geral {
   color: white;
   background-color: #08055c;
@@ -23,6 +24,7 @@ h1 {
   text-align: center;
   color: #ffaa00;
 }
+
 #form {
   display: flex;
   flex-direction: column;
@@ -47,6 +49,7 @@ button {
   margin-top: 20px;
   border-radius: 5px;
 }
+
 button:hover {
   background-color: #1f1c72;
   color: white;
@@ -150,4 +153,74 @@ input {
   text-align: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #geral {
+    width: 90%;
+    padding: 10px;
+  }
+
+  #form {
+    font-size: 1em;
+  }
+
+  #resSenha {
+    width: 90%;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  #resSenhaDiv {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  input {
+    padding: 8px;
+  }
+
+  #embadmsg {
+    min-width: 200px;
+    padding: 12px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  #geral {
+    width: 100%;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  #resSenha {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  #resSenhaDiv {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  input {
+    padding: 6px;
+  }
+
+  #embadmsg {
+    min-width: 180px;
+    padding: 10px 12px;
+  }
 }
