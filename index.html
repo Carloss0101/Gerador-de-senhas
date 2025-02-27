@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Gerador de senhas</title>
+</head>
+<body>
+    <div id="geral">
+        <h1>Gerador de senhas</h1>
+        <div id="form">
+            <label for="quant">Quantidade de caracteres:</label>
+            <input type="number" name="quant" id="quant" required>
+    
+        <div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="letrasMIN" id="letrasMIN">
+                <label for="letrasMIN">Adicionar letras minúsculas</label>
+            </div>
+    
+            <div class="checkbox-group">
+                <input type="checkbox" name="letrasMAI" id="letrasMAI">
+                <label for="letrasMAI">Adicionar letras maiúsculas</label>
+            </div>
+    
+            <div class="checkbox-group">
+                <input type="checkbox" name="num" id="num">
+                <label for="num">Adicionar números</label>
+            </div>
+    
+            <div class="checkbox-group">
+                <input type="checkbox" name="especiais" id="especiais">
+                <label for="especiais">Adicionar caracteres especiais</label>
+            </div>
+    
+        </div>
+            <button onclick="validarFormulario()">Gerar Senha</button>
+        </div>
+    </div>
+    
+</body>
+</html>
