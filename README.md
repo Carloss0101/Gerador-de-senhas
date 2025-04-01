@@ -15,3 +15,5 @@ Um gerador de senhas aleatórias com cópia automática e interface estilizada.
 - **HTML**
 - **CSS**
 - **JavaScript**
+
+Confira o deploy do Gerador de senhas no link: https://carloss0101.github.io/Gerador-de-senhas/
